@@ -17,7 +17,7 @@
 <b>User2 access:</b><br>
 <b>Email:</b> civukebaj@mailinator.com<br>
 <b>Password:</b> 123456<br><br>
-<h2>Admin Section :</h2>
+<h2>Admin Dashboard :</h2>
 <code>cd admin</code>
 <code>npm install</code>
 <code>npm start</code>
