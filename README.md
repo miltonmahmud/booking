@@ -11,6 +11,9 @@
 <code>npm install</code>
 <code>npm start</code>
 <hr/>
+<b>User1 access:</b><br>
+<b>Email:</b> user@email.com<br>
+<b>Password:</b> 123456<br>
 <h2>Admin Section :</h2>
 <code>cd admin</code>
 <code>npm install</code>
