@@ -1,0 +1,174 @@
+.hotels_list {
+  width: 100%;
+  .container {
+    width: 1140px;
+    margin: 30px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .sidebar {
+      width: 300px;
+      color: #333;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      height: max-content;
+      margin-right: 15px;
+      h2 {
+        margin: 10px 0px 20px 0px;
+        text-transform: uppercase;
+        color: #3554d1;
+      }
+      .destination {
+        margin-top: 10px;
+        font-weight: 500;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        input {
+          width: 300px;
+          padding: 12px;
+          margin-top: 5px;
+          outline: none;
+          border: 1px solid #3554d1;
+          border-radius: 4px;
+        }
+      }
+      .checkin-date {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        span {
+          // margin-top: 10px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        .d-date {
+          background-color: #3554d1;
+          color: #fff;
+          width: 100%;
+          display: block;
+          padding: 10px;
+          // border: 1px solid #3554d1;
+          margin-top: 5px;
+          border-radius: 4px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .guest-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10px;
+        & > span {
+          margin-bottom: 10px;
+          font-weight: 500;
+        }
+        div {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          padding: 5px 0;
+        }
+        input {
+          width: 60px;
+          height: 30px;
+          padding: 10px;
+          outline: none;
+          border-radius: 4px;
+          border: 1px solid #3554d1;
+        }
+      }
+      .search_hotel {
+        outline: none;
+        border: none;
+        width: 100%;
+        padding: 15px 60px;
+        border-radius: 4px;
+        background-color: #3554d1;
+        color: #fff;
+        margin-top: 20px;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+          background-color: #333;
+          color: #fff;
+          transition: 0.3s;
+        }
+        .mr-10 {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .main_content {
+    width: 820px;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    .hotel-info {
+      border: 1px solid #eee;
+      padding: 20px 15px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-top: 15px;
+      border-radius: 4px;
+      gap: 20px;
+      .hotel_image {
+        height: auto;
+      }
+
+      .price_details {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+        .review_status {
+          width: 150px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .rv {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+          }
+          .rating {
+            padding: 10px;
+            background-color: #3554d1;
+            color: #fff;
+            border-radius: 4px;
+          }
+        }
+        .hotel_rent {
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          margin-top: 72px;
+          font-weight: 500;
+          line-height: 1.2 !important;
+          font-size: 22px;
+          color: #ff324d;
+        }
+        .avail {
+          margin-top: 53px;
+          a {
+            text-decoration: none;
+            padding: 12px 24px;
+            background-color: #3554d1;
+            color: #fff;
+            border-radius: 4px;
+            &:hover {
+              background-color: #333;
+              color: #fff;
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+}

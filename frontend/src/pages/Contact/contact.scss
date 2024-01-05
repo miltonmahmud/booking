@@ -1,0 +1,102 @@
+.contact {
+  width: 1140px;
+  margin: 0 auto;
+  .location_map {
+    padding: 80px 0;
+    .map-inner {
+      height: 600px;
+      iframe {
+        width: 100%;
+      }
+    }
+  }
+  .contact_details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    .left_section {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 570px;
+      p {
+        width: 440px;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      .address > div {
+        width: 440px;
+        padding: 26px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 4px;
+        margin-top: 15px;
+        border: 1px solid #3554d1;
+        p {
+          margin-bottom: 5px;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+    .right_section {
+      width: 570px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      h2 {
+        margin-bottom: 20px;
+      }
+      .message {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 23px;
+        .form-control {
+          font-size: 16px;
+          width: 265px;
+          outline: none;
+          padding: 12px;
+          border: 1px solid #3554d1;
+          border-radius: 4px;
+          margin-top: 15px;
+        }
+      }
+      .message_details {
+        font-size: 16px;
+        padding: 15px;
+        border-radius: 4px;
+        margin-top: 20px;
+        border: 1px solid #3554d1;
+        &:focus {
+          outline: none;
+          padding: 15px;
+          font-size: 16px;
+        }
+      }
+      .btn {
+        outline: none;
+        border: 1px solid #3554d1;
+        padding: 16px 22px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #3554d1;
+        color: #fff;
+        border-radius: 4px;
+        width: 300px;
+        margin-top: 22px;
+        cursor: pointer;
+        &:hover {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

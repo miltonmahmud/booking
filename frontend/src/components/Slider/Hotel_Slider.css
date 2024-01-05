@@ -1,0 +1,104 @@
+.card {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.card .card_image {
+  width: 100%;
+}
+
+.card .card_image img {
+  border-radius: 4px;
+}
+
+.card .card_title {
+  font-weight: 500;
+  line-height: 1.6 !important;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.card .card_title a {
+  color: #051036;
+  text-decoration: none;
+}
+
+.card .card_location {
+  color: #697488;
+  margin-top: 5px !important;
+  line-height: 1.4 !important;
+  font-size: 14px;
+}
+
+.card .details {
+  margin-top: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .details .rating {
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #3554d1;
+  font-weight: 600;
+}
+
+.card .details .quality {
+  font-size: 14px;
+  color: #051036;
+  font-weight: 500;
+}
+
+.card .details .review {
+  font-size: 14px;
+  color: #697488;
+  margin-right: 15px;
+}
+
+.card .hotel_cost {
+  margin-top: 13px;
+}
+
+.card .hotel_cost .f-500 {
+  font-weight: 500;
+}
+
+.card .hotel_cost .cost {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff324d;
+  margin-left: 5px;
+}
+
+.card .card_title,
+.card .card_location,
+.card .details,
+.card .hotel_cost {
+  margin-left: 5px;
+}
+
+.card:hover .card_title a {
+  color: #ff324d;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=Hotel_Slider.css.map */

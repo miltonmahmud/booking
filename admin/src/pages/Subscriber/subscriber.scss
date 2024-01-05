@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+td {
+  padding: 10px 10px;
+  border: 1px solid #ddd;
+  text-transform: capitalize;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.email {
+  font-weight: 500;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.date {
+  text-align: center;
+  width: 200px;
+}

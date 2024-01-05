@@ -1,0 +1,535 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+::placeholder {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+}
+
+//! Hero_section Start
+
+.hero-section {
+  width: 100%;
+  padding: 60px 0 113px;
+  border-bottom: 1px solid #3554d1;
+  .travel_icon {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    color: #3554d1;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+//! End Hero_section
+
+//! Search Start
+
+.headerSearch {
+  font-family: "Jost", sans-serif;
+  margin: 241px auto -160px;
+  background-color: white;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  border-radius: 5px;
+  width: 920px;
+  position: relative;
+  border-radius: 50px;
+}
+
+.headerBtn {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  background-color: #3554d1;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 18px 60px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 30px;
+  span {
+    margin-left: 5px;
+  }
+  &:hover {
+    background-color: #333;
+    color: white;
+    transition: 0.3s;
+  }
+}
+
+.headerIcon {
+  color: lightgray;
+}
+
+.headerSearchItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+
+  .title {
+    font-weight: 500;
+    margin-bottom: 7px;
+  }
+  .location_name {
+    input {
+      margin-left: 10px;
+    }
+  }
+  .guest {
+    span {
+      // margin-left: 10px;
+    }
+  }
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  top: 94px;
+  z-index: 2;
+  left: 183px;
+}
+
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 94px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #3554d1;
+  cursor: pointer;
+  background-color: #3554d1;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}
+
+//! End Search
+
+//! Register & Login Start
+
+.register,
+.login {
+  width: 100%;
+  height: 100vh;
+  .form-control {
+    border: 1px solid #3554d1;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px 40px 40px 40px;
+    .error {
+      text-align: center;
+      margin: 7px auto;
+      color: rgb(218, 55, 55);
+      text-transform: capitalize;
+      padding: 10px;
+    }
+    h2 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: #515151;
+    }
+    a {
+      text-decoration: none;
+      color: #3554d1;
+    }
+    input[type="text"],
+    input[type="password"] {
+      border-radius: 4px;
+      width: 330px;
+      height: 50px;
+      border: none;
+      padding-left: 10px;
+      margin-top: 10px;
+      background-color: #f2f2f2;
+      font-size: 14px;
+      letter-spacing: 1px;
+      outline: none;
+    }
+    input[type="submit"] {
+      border-radius: 4px;
+      font-family: "Jost", sans-serif;
+      width: 330px;
+      height: 50px;
+      border: none;
+      text-transform: uppercase;
+      background-color: #3554d1;
+      color: #ffffff;
+      letter-spacing: 1px;
+      font-size: 15px;
+      outline: none;
+      cursor: pointer;
+    }
+    ::placeholder {
+      font-family: "Jost", sans-serif;
+    }
+  }
+}
+
+//! End Register & Login
+
+//! Hotel Slider Start
+
+.hotel_slider {
+  width: 1140px;
+  margin: 100px auto 60px;
+}
+
+//! Hotel Slider End
+
+//! Banner Start
+
+.banner {
+  width: 100%;
+  padding: 30px;
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .left_banner,
+    .right_banner {
+      width: 555px;
+      position: relative;
+      border-radius: 4px;
+      img {
+        transition: all 0.3s ease-in-out;
+        width: 100%;
+        border-radius: 4px;
+      }
+      .banner_content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        padding: 20px;
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 100%;
+        h2 {
+          text-align: center;
+          margin-bottom: 30px;
+          font-size: 32px;
+        }
+        a {
+          text-decoration: none;
+          padding: 20px 36px;
+          background-color: #fff;
+          color: #333;
+          border-radius: 4px;
+          &:hover {
+            background-color: #3554d1;
+            color: #fff;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Banner End
+
+//! Destination Start
+
+.destination_wraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 60px auto 100px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .destination_content {
+    border-radius: 4px;
+    width: 265px;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    position: relative;
+    z-index: 0;
+    .destination_bg {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(5, 16, 54, 0.4);
+      border-radius: inherit;
+      transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+      opacity: 0;
+    }
+    .destination_details {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 30px;
+      .total_hotel {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        opacity: 0;
+        transition: all 0.5s;
+        color: #333;
+      }
+      .bottom_section {
+        transition: all 0.5s;
+        margin-top: 158px;
+        transform: translateY(80px);
+        .location {
+          color: #fff;
+          margin-bottom: 20px !important;
+          line-height: 1.3 !important;
+          font-size: 26px;
+          text-align: center;
+          font-weight: 600;
+        }
+        .btn {
+          width: 100%;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          vertical-align: middle;
+          text-align: center;
+          height: 60px !important;
+          line-height: 1;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 1.2;
+          border-radius: 4px;
+          border: 1px solid transparent;
+          transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+      }
+    }
+  }
+}
+
+.destination_content:hover {
+  cursor: pointer;
+  .destination_details {
+    .total_hotel {
+      opacity: 1;
+      transition: 1.3s;
+    }
+  }
+}
+
+.destination_content:hover .destination_details .bottom_section {
+  transform: translateY(0);
+}
+
+.destination_content:hover .destination_details .bottom_section .btn {
+  background-color: #fff;
+  color: #333;
+  &:hover {
+    transition: 0.3s;
+    background-color: #3554d1;
+    color: #fff;
+  }
+}
+
+.destination_content:hover .destination_bg {
+  opacity: 1;
+}
+
+//! Destination End
+
+//! Newsletter Start
+
+.newsletter {
+  width: 100%;
+  background-color: #3554d1;
+  padding: 60px 0;
+  .container {
+    color: #fff;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .icon {
+      font-size: 60px;
+    }
+    .brief {
+      font-family: "Jost", sans-serif;
+      h2 {
+        font-weight: 600;
+        line-height: 1.45;
+        font-size: 26px;
+      }
+      p {
+        margin-top: 5px;
+      }
+    }
+    .email {
+      display: flex;
+      background-color: #3554d1 !important;
+      input {
+        outline: none;
+        border: none;
+        width: 410px;
+        border-radius: 4px;
+        padding: 17px 20px;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        transition: all 0.3s;
+      }
+    }
+    .btn1 {
+      padding: 14px 30px;
+      cursor: pointer;
+      // height: 53px !important;
+      color: #fff;
+      background-color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle;
+      text-align: center;
+      line-height: 1;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1.2;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      transition: all 0.3s;
+      margin-left: 10px;
+      &:hover {
+        color: #333;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+//! End Newsletter
+
+//! Footer Start
+
+.footer {
+  width: 100%;
+  padding: 60px 0;
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    ul {
+      list-style: none;
+      li {
+        padding: 10px 0;
+        .bold {
+          font-weight: 600;
+        }
+        .toll {
+          font-size: 14px;
+        }
+        .number {
+          font-weight: 500;
+          font-size: 18px;
+          color: #3554d1;
+          margin: 8px 0;
+        }
+        a {
+          text-decoration: none;
+          color: #051036;
+          &:hover {
+            color: #3554d1;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ! ========================================
+// ! Media Query
+// ! ========================================

@@ -1,0 +1,60 @@
+.create_contact {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-bottom: 20px;
+  height: 1px;
+  background-color: #ddd;
+  border: none;
+}
+
+.rContainer {
+  min-width: 500px;
+  background-color: white;
+  padding: 25px;
+  position: relative;
+  border-radius: 4px;
+  font-size: 14px;
+  span.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.update {
+  width: 100%;
+  padding: 15px 0px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #3554d1;
+  color: #fff;
+}

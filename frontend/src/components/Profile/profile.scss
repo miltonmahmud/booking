@@ -1,0 +1,73 @@
+.profile {
+  width: 80%;
+  margin: 60px 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.profile-image img {
+  margin-top: 40px;
+  border-radius: 4px;
+  width: 200px;
+  height: 230px;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+label {
+  font-weight: 500;
+}
+
+.form2 {
+  border-radius: 4px;
+  width: 430px;
+  height: 50px;
+  border: none;
+  padding-left: 10px;
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  letter-spacing: 1px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.bio {
+  padding: 15px;
+  border-radius: 4px;
+  width: 430px;
+  border: none;
+  padding-left: 10px;
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  letter-spacing: 1px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  border-radius: 4px;
+  font-family: "Jost", sans-serif;
+  width: 430px;
+  height: 50px;
+  border: none;
+  text-transform: uppercase;
+  background-color: #3554d1;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  font-size: 16px;
+  margin-top: 10px;
+}

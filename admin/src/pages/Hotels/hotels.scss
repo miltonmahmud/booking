@@ -1,0 +1,207 @@
+.main-content {
+  margin-top: 20px;
+  padding: 6px;
+}
+
+h2 {
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.hotel-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 20px;
+}
+
+.filter {
+  max-width: 500px;
+  padding: 10px 12px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+table,
+.table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+thead {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #d5fffc;
+  color: rgb(0, 0, 0);
+  border: 1px solid #3554d1;
+  text-align: left;
+  border-radius: 4px;
+}
+
+tr {
+  padding: 10px;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-weight: 500;
+}
+
+td {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  text-transform: capitalize;
+  font-size: 14px;
+  border-radius: 4px;
+  img {
+    width: 58px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+}
+
+.bx {
+  color: #fff;
+}
+
+button {
+  cursor: pointer !important;
+  outline: none;
+  border: none;
+  background-color: red;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.page-index {
+  background-color: #3554d1 !important;
+  padding: 10px 12px;
+}
+
+.button {
+  padding: 8px 12px;
+  margin: 0px 10px 0px 0px;
+  background-color: #3554d1;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button2 {
+  padding: 8px 12px;
+  margin: 0px 10px 0px 10px;
+  background-color: #3554d1;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button3 {
+  padding: 10px 15px;
+  background-color: #3554d1;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.space {
+  padding: 0 10px;
+}
+
+.spacer {
+  width: 1px;
+  margin-right: 10px;
+}
+
+.action {
+  width: 160px;
+  text-align: center;
+}
+
+.edit {
+  background-color: #0fade9;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+.delete {
+  background-color: #f92222;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+
+.action-button {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pagination {
+  list-style: none;
+}
+.pagination li {
+  margin: 20px 10px 0px 0px;
+}
+.pagination li a {
+  padding: 8px 12px;
+  background-color: #0fade9;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.page-item {
+  padding: 5px 8px;
+  background-color: #3554d1;
+  color: rgb(0, 0, 0);
+}
+
+.active {
+  color: #0fade9;
+}
+
+.add-hotel {
+  background-color: #3554d1;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 12px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.image {
+  width: 70px;
+}
+
+.count {
+  color: #f92222;
+}

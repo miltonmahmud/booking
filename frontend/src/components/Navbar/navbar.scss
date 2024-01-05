@@ -1,0 +1,23 @@
+.user {
+  height: 40px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 50px;
+  color: #3554d1;
+}
+
+.user-image2 {
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 2px solid #eee;
+  margin-right: 10px;
+}

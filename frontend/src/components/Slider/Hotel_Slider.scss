@@ -1,0 +1,112 @@
+.card {
+  width: 100%;
+  border-radius: 4px;
+  .card_image {
+    width: 100%;
+    position: relative;
+    img {
+      border-radius: 4px;
+      // position: relative;
+    }
+    .heart {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      color: #3554d1;
+      height: 32px;
+      width: 32px;
+      font-size: 17px;
+      border-radius: 30px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      opacity: 0;
+      &:hover {
+        color: #ff324d;
+      }
+    }
+  }
+  .card_title {
+    font-weight: 500;
+    line-height: 1.6 !important;
+    font-size: 18px;
+    margin-top: 5px;
+    a {
+      color: #051036;
+      text-decoration: none;
+    }
+  }
+
+  .card_location {
+    color: #697488;
+    margin-top: 5px !important;
+    line-height: 1.4 !important;
+    font-size: 14px;
+  }
+  .details {
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .rating {
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 35px;
+      height: 35px;
+      border-radius: 4px;
+      color: #fff;
+      background-color: #3554d1;
+      font-weight: 600;
+    }
+    .quality {
+      font-size: 14px;
+      color: #051036;
+      font-weight: 500;
+    }
+    .review {
+      font-size: 14px;
+      color: #697488;
+      margin-right: 15px;
+    }
+  }
+  .hotel_cost {
+    margin-top: 13px;
+    .f-500 {
+      font-weight: 500;
+    }
+    .cost {
+      font-size: 18px;
+      font-weight: 500;
+      color: #ff324d;
+      margin-left: 5px;
+    }
+  }
+}
+
+.card .card_title,
+.card .card_location,
+.card .details,
+.card .hotel_cost {
+  margin-left: 5px;
+}
+
+.card:hover .card_title a {
+  color: #ff324d;
+  transition: 0.3s;
+}
+
+.card:hover .card_image .heart {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.hotel-slide-photo {
+  width: 265;
+  height: 265;
+  object-fit: cover;
+}
+// !========================================================================

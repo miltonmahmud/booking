@@ -1,0 +1,65 @@
+.hotel_details {
+  // padding: 0 20px;
+  .title {
+    font-weight: 500;
+    line-height: 1.6 !important;
+    font-size: 20px;
+    color: #051036;
+    text-transform: capitalize;
+  }
+  .location {
+    font-size: 14px;
+    color: #697488;
+    margin-top: 10px;
+  }
+  .distance {
+    font-size: 14px;
+    color: #697488;
+    margin-top: 10px;
+  }
+  .room-name {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.5 !important;
+  }
+  .room-desc {
+    line-height: 1.5 !important;
+    color: #333;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .room-benifit {
+    font-weight: 500;
+    color: #008009;
+    font-size: 14px;
+    line-height: 1.5 !important;
+  }
+  .benifit-details {
+    color: #008009;
+    font-size: 14px;
+    line-height: 1.5 !important;
+  }
+  .tag {
+    margin-top: 30px;
+    span {
+      font-size: 14px;
+      border: 1px solid #dddddd;
+      border-radius: 30px;
+      padding: 2px 10px;
+      margin-right: 10px;
+      margin-bottom: 15px;
+      cursor: pointer;
+      &:hover {
+        background-color: #3554d1;
+        color: #fff;
+        border: 1px solid #3554d1;
+      }
+    }
+  }
+}
+
+.hotel_image img {
+  width: 220;
+  height: 220;
+}

@@ -1,0 +1,101 @@
+.navigation {
+  width: 100%;
+  background-color: #3554d1;
+}
+
+.navigation .container {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation .container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation .container .logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation .container .logo a h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.navigation .container .main-nav {
+  font-size: 16px;
+}
+
+.navigation .container .main-nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation .container .main-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navigation .container .main-nav ul li a:hover {
+  color: #bef566;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navigation .container > .sign a {
+  text-decoration: none;
+  padding: 14px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #333;
+}
+
+.navigation .container > .sign a:hover {
+  background-color: #333;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=navigation.css.map */

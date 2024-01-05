@@ -1,0 +1,70 @@
+.login {
+  width: 100%;
+  height: 100vh;
+
+  .form-control {
+    border: 1px solid #3554d1;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    .error {
+      text-align: center;
+      margin: 7px auto;
+      color: rgb(218, 55, 55);
+      text-transform: capitalize;
+      padding: 10px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: #515151;
+    }
+    a {
+      text-decoration: none;
+      color: #3554d1;
+    }
+    input[type="text"],
+    input[type="password"] {
+      border-radius: 4px;
+      width: 330px;
+      height: 50px;
+      border: none;
+      padding-left: 10px;
+      margin-top: 10px;
+      background-color: #f2f2f2;
+      font-size: 14px;
+      letter-spacing: 1px;
+      outline: none;
+    }
+    input[type="submit"] {
+      border-radius: 4px;
+      font-family: "Jost", sans-serif;
+      width: 100%;
+      height: 50px;
+      border: none;
+      text-transform: uppercase;
+      background-color: #3554d1;
+      color: #ffffff;
+      letter-spacing: 1px;
+      font-size: 15px;
+      outline: none;
+      cursor: pointer;
+    }
+    ::placeholder {
+      font-family: "Jost", sans-serif;
+    }
+  }
+}
+
+.button6 {
+  background-color: #3554d1;
+  font-size: 16px;
+  width: 330px;
+  padding: 15px;
+}
