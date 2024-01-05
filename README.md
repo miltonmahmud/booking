@@ -15,4 +15,7 @@
 <code>cd admin</code>
 <code>npm install</code>
 <code>npm start</code>
+Admin access:
+<b>Email:</b> admin@email.com
+<b>Password:</b> 12345678
 <hr/>
