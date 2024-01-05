@@ -13,7 +13,10 @@
 <hr/>
 <b>User1 access:</b><br>
 <b>Email:</b> tonizygyj@mailinator.com<br>
-<b>Password:</b> 123456<br>
+<b>Password:</b> 123456<br><br>
+<b>User2 access:</b><br>
+<b>Email:</b> civukebaj@mailinator.com<br>
+<b>Password:</b> 123456<br><br>
 <h2>Admin Section :</h2>
 <code>cd admin</code>
 <code>npm install</code>
