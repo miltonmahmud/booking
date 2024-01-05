@@ -14,7 +14,7 @@
 <h2>Admin Section :</h2>
 <code>cd admin</code>
 <code>npm install</code>
-<code>npm start</code><br><br>
+<code>npm start</code><br>
 <hr/>
 <b>Admin access:</b><br>
 <b>Email:</b> admin@email.com<br>
